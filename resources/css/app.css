@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #002366;
+    --secondary-color: #FFFFFF;
+}
+
+/* Contoh pemakaian */
+body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar, .topbar, .sidebar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+a, .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+a:hover, .btn-primary:hover {
+    background-color: #001a4d;
+}
